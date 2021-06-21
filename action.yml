@@ -1,0 +1,8 @@
+name: "ctag tapp mingw64 build"
+description: "This action builds tapp for mingw64."
+branding:
+  color: blue
+  icon: check
+runs:
+  using: "docker"
+  image: "Dockerfile"
