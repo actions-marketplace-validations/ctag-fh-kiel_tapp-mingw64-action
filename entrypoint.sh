@@ -2,6 +2,7 @@
 set -e # stops execution if error on command
 
 echo Building tbd4vcv mingw-win64
+sudo apt-get install libgl1-mesa-dev
 git clone --recursive https://github.com/VCVRack/Rack.git
 export RACK_DIR=`pwd`/Rack
 cd Rack
